@@ -7,7 +7,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: vprofile.thehkh.com
+#  - host: vprofile.thehkh.com  Need to put here personal domain (godaddy etc)
     http:
       paths:
       - path: /
